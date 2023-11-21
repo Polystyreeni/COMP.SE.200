@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/Polystyreeni/COMP.SE.200/badge.svg?branch=development)](https://coveralls.io/github/Polystyreeni/COMP.SE.200?branch=development)
+
 # Student template
 
 ## Purpose of this repository
