@@ -27,4 +27,12 @@ describe('get', () => {
   it('should return the default value when given an invalid array path and a default value', () => {
     expect(get(obj, ['a', 'b', 'd'], 'default')).to.equal('default')
   })
+
+  it('should return undefined when given null object', () => {
+    expect(get(null, ['a', 'b', 'd'])).to.be.undefined
+  })
+
+  it('should return default value when given null object', () => {
+    expect(get(null, ['a', 'b', 'd'], 'default')).to.equal('default')
+  })
 })
